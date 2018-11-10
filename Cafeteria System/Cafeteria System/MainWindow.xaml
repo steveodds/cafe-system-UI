@@ -5,28 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cafeteria_System"
         mc:Ignorable="d"
-        Title="CMS" Height="342.5" Width="413" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
-    <Window.Background>
-        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-            <LinearGradientBrush.RelativeTransform>
-                <TransformGroup>
-                    <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="1.4"/>
-                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
-                    <RotateTransform Angle="45" CenterY="0.5" CenterX="0.5"/>
-                    <TranslateTransform Y="0.2"/>
-                </TransformGroup>
-            </LinearGradientBrush.RelativeTransform>
-            <GradientStop Color="#FF4F5BD5" Offset="0"/>
-            <GradientStop Color="#FFFF9849" Offset="1"/>
-            <GradientStop Color="#FFD62976" Offset="0.754"/>
-            <GradientStop Color="#FF962FBF" Offset="0.25"/>
-        </LinearGradientBrush>
-    </Window.Background>
+        Title="CMS" Height="313.5" Width="413" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#FF300D3A">
     <Grid>
-        <Label Content="Cafeteria Management System" Margin="44,42,44,0" VerticalAlignment="Top" FontSize="24" FontFamily="Perpetua" FontWeight="Bold" Foreground="#FFCBCBCB" HorizontalContentAlignment="Center"/>
-        <Button Content="New Order" Margin="44,170,0,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="325" Background="{x:Null}" BorderBrush="#FF6C0095" Foreground="#FFCBCBCB" FontSize="22" Style="{DynamicResource ButtonStyle1}"/>
-        <Button Margin="44,224,0,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="325" Background="{x:Null}" BorderBrush="#FF6C0095" Foreground="#FFCBCBCB" FontSize="22" Content="View Order" Style="{DynamicResource ButtonStyle1}"/>
-        <Button Content="Exit" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="325" Background="{x:Null}" BorderBrush="#FF6C0095" Foreground="#FFCBCBCB" FontSize="22" Margin="44,281,0,0" Style="{DynamicResource ButtonStyle1}" Click="Button_Click"/>
+        <Label Content="Cafeteria Management System" Margin="44,42,44,0" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Light" Foreground="#FFCBCBCB" HorizontalContentAlignment="Center"/>
+        <Button Content="New Order" Margin="44,140,0,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="325" Background="{x:Null}" BorderBrush="#FF6C0095" Foreground="#FFCBCBCB" FontSize="22" Style="{DynamicResource ButtonStyle1}" Click="Button_Click_1"/>
+        <Button Margin="44,194,0,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="325" Background="{x:Null}" BorderBrush="#FF6C0095" Foreground="#FFCBCBCB" FontSize="22" Content="View Order" Style="{DynamicResource ButtonStyle1}" Click="Button_Click_2"/>
+        <Button Content="Exit" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="325" Background="{x:Null}" BorderBrush="#FF6C0095" Foreground="#FFCBCBCB" FontSize="22" Margin="44,251,0,0" Style="{DynamicResource ButtonStyle1}" Click="Button_Click"/>
 
     </Grid>
 </Window>

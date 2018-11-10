@@ -1,0 +1,22 @@
+﻿<Window x:Class="Cafeteria_System.View_Order"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cafeteria_System"
+        mc:Ignorable="d"
+        Title="View Order" Height="461.047" Width="490" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#FF300D36">
+    <Grid>
+        <Label Content="View Order" Margin="99,29,99,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Foreground="#FFCBCBCB" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,94,0,0" TextWrapping="Wrap" Text="Enter Order #:" VerticalAlignment="Top" FontSize="14" Foreground="#FFCBCBCB"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="148,90,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="180" Foreground="#FFCBCBCB" Background="{x:Null}"/>
+        <Button Content="Check" HorizontalAlignment="Left" Margin="364,90,0,0" VerticalAlignment="Top" Width="88" Height="23" FontSize="14" Foreground="#FFCBCBCB" Background="{x:Null}" BorderBrush="#FF6C0095" Style="{DynamicResource ButtonStyle1}"/>
+        <ListBox HorizontalAlignment="Left" Height="240" Margin="33,135,0,0" VerticalAlignment="Top" Width="419" Background="{x:Null}" Foreground="#FFCBCBCB">
+            <ListBoxItem Content="Name                  Price                   Quantity                        Comment"/>
+        </ListBox>
+        <Button Content="Cancel Order" HorizontalAlignment="Left" Margin="180,403,0,0" VerticalAlignment="Top" Width="124" Height="26" FontSize="16" Foreground="#FFCBCBCB" Background="{x:Null}" BorderBrush="#FF6C0095" Style="{DynamicResource ButtonStyle1}"/>
+        <Button Content="Print" HorizontalAlignment="Left" Margin="33,403,0,0" VerticalAlignment="Top" Width="124" Height="26" FontSize="16" Foreground="#FFCBCBCB" Background="{x:Null}" BorderBrush="#FF6C0095" Style="{DynamicResource ButtonStyle1}"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="328,403,0,0" VerticalAlignment="Top" Width="124" Height="26" FontSize="16" Foreground="#FFCBCBCB" Background="{x:Null}" BorderBrush="#FF6C0095" Style="{DynamicResource ButtonStyle1}" Click="Button_Click"/>
+
+    </Grid>
+</Window>
